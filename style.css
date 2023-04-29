@@ -115,17 +115,6 @@ a {
   animation-timing-function: cubic-bezier(0.26, 0.53, 0.74, 1.48);
 }
 
-@keyframes itemDisplay {
-  0% {
-    opacity: 0;
-    transform: scale(0.3, 0.3);
-  }
-
-  100% {
-    opacity: 1;
-    transform: scale(0.8, 0.8);
-  }
-}
 /* work*/
 .work-section {
   background: black;
@@ -211,6 +200,15 @@ a {
   margin: 30px;
 }
 
+.team-name {
+  text-align: center;
+  color: #435c92;
+}
+
+a.team-name {
+  text-decoration: none;
+}
+
 /*skills*/
 .skills-section {
   background: white;
@@ -219,6 +217,7 @@ a {
   color: black;
   text-align: center;
   padding: 50px;
+  font-size: 36px;
 }
 
 #award,
@@ -232,6 +231,9 @@ a {
   /* centrer parfaitement l'élément */
   transform: translate(-50%, -50%);
 }
+#os {
+  padding-top: -2px;
+}
 
 .skills-item {
   position: relative;
@@ -242,6 +244,12 @@ a {
   animation: fade-in 1.5s ease-in-out forwards;
 }
 
+/* Add the "hidden" class to elements that should initially be hidden */
+.hidden {
+  opacity: 0;
+}
+
+/* Update the animation classes */
 @keyframes fade-in {
   from {
     opacity: 0;
@@ -251,6 +259,25 @@ a {
     opacity: 1;
     transform: translateY(0);
   }
+}
+
+@keyframes itemDisplay {
+  from {
+    opacity: 0;
+    transform: scale(0.3, 0.3);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1, 1);
+  }
+}
+
+/* Update the animation selectors */
+.about-description,
+.skills-item {
+  animation-duration: 1.5s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
 }
 
 .skills-item__title {
@@ -308,6 +335,16 @@ a {
 }
 
 @media (min-width: 769px) and (max-width: 991px) {
+  .menu li {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 900;
+    font-size: 0.6rem;
+    cursor: pointer;
+    position: relative;
+    transition: 0.3 ease;
+    padding: 10px 0;
+  }
   .skills-container {
     display: grid;
     grid-template-columns: 1fr 1fr;

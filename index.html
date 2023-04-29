@@ -51,7 +51,7 @@
 
     <section class="about-section" id="about">
       <h2 class="about-title">Qui je suis ?</h2>
-      <p class="about-description">
+      <p class="about-description hidden">
         <i class="fa fa-quote-left"></i>
         Je suis un Développeur Web / Front-end avec 5 ans d'expériences et je
         suis actuellement à la recherche de nouveau défi stimulant.<i
@@ -59,8 +59,9 @@
         ></i>
       </p>
     </section>
-    <section class="skills-section">
-      <h2 class="skills-title" id="skills">Compétences</h2>
+
+    <section class="skills-section" id="skills">
+      <h2 class="skills-title">Compétences</h2>
       <div class="skills-container">
         <div class="skills-item">
           <i class="fa-solid fa-file-code" id="code"></i>
@@ -76,10 +77,10 @@
         </div>
         <div class="skills-item">
           <i class="fa-solid fa-award" id="award"></i>
-          <h4 class="skills-item__title">Mes certifications en ligne</h4>
+          <h4 class="skills-item__title">Certifications obtenues</h4>
           <div class="skills-item__list">
             <ul class="item-list">
-              <li>HTML, CSS, JavaScript (COURSERA)</li>
+              <li>HTML,CSS,JavaScript (COURSERA)</li>
               <li>Front-End Web UI Frameworks and Tools (COURSERA)</li>
               <li>Méthodologie Agile (OCTO ACADEMY)</li>
               <!--li>Le CSS avec Sass (OPENCLASSROOMS)</li>
@@ -87,7 +88,7 @@
             </ul>
           </div>
         </div>
-        <div class="skills-item">
+        <div class="skills-item hidden">
           <i class="fa-solid fa-brain" id="general"></i>
           <h4 class="skills-item__title">Compétences générales</h4>
           <div class="skills-item__list">
@@ -98,9 +99,9 @@
             </ul>
           </div>
         </div>
-        <div class="skills-item">
+        <div class="skills-item hidden">
           <i class="fa-solid fa-laptop" id="os"></i>
-          <h4 class="skills-item__title">Système d'exploitations et outils</h4>
+          <h4 class="skills-item__title">Outils et systèmes</h4>
           <div class="skills-item__list">
             <ul class="item-list">
               <li>Windows, Linux</li>
@@ -123,6 +124,18 @@
             <p>
               Forum FluksAqua<br /><a
                 href="https://www.facebook.com/profile.php?id=100070390117350&sk=photos"
+                target="_blank"
+                ><i class="fa-solid fa-eye fa-beat-fade"></i
+              ></a>
+            </p>
+          </div>
+        </div>
+        <div class="work-item">
+          <img src="assets/img/work/Bullgame.png" />
+          <div class="overlay">
+            <p>
+              Bubble game<br /><a
+                href="https://johary1.github.io/bullgame/"
                 target="_blank"
                 ><i class="fa-solid fa-eye fa-beat-fade"></i
               ></a>
@@ -177,53 +190,12 @@
             </p>
           </div>
         </div>
-        <div class="work-item">
-          <img src="assets/img/work/bg.jpg" />
-          <div class="overlay">
-            <p>
-              Nom du projet<br /><a href="#"
-                ><i class="fa-solid fa-eye fa-beat-fade"></i
-              ></a>
-            </p>
-          </div>
-        </div>
       </div>
     </section>
     <section id="reference" class="splide" aria-label="Beautiful Images">
       <div class="splide__track">
         <h2 class="reference-title">Mes références</h2>
         <ul class="splide__list">
-          <li class="splide__slide">
-            <img class="testimony" src="assets/img/me.png" alt="photo profil" />
-            <p class="testimony__description">
-              6J'ai travaillé plus de trois ans avec Johary lorsqu'il était
-              développeur chez FluksAqua, pour développer un forum d'entraide
-              technique à forte audience dont j'assurais la partie marketing.
-              Ses compétences techniques, sa compréhension du produit, du marché
-              et des besoins utilisateurs ont été des atouts formidables dans ce
-              projet. Sans mentionner son esprit d'équipe, sa gentillesse et son
-              adaptabilité en toutes circonstances ! Ca a été un immense plaisir
-              de travailler ensemble
-            </p>
-          </li>
-          <li class="splide__slide">
-            <img
-              class="testimony"
-              src="assets/img/work/Camille.jpg"
-              alt="photo profil"
-            />
-            <p class="testimony__description">
-              J'ai eu le plaisir de travailler avec Johary pendant 5 ans. C'est
-              avec plaisir que je le recommande pour ses compétences
-              exceptionnelles en matière de développement front-end. Au fil des
-              années, j'ai été témoin de la passion, de son engagement ainsi que
-              de son évolution au sein de notre équipe. Sa passion pour le
-              développement front-end et sa volonté de s'adapter aux nouvelles
-              tendances et technologies en font un atout pour toute
-              organisation.
-            </p>
-          </li>
-
           <li class="splide__slide">
             <img
               class="testimony"
@@ -241,6 +213,35 @@
               des utilisateurs ainsi que des parcours de génération de leads
               qualifiés.
             </p>
+            <a
+              href="https://www.linkedin.com/in/piedadolivares/"
+              target="_blank"
+              class="team-name"
+              ><h5>Piedad POLIVARES</h5></a
+            >
+          </li>
+          <li class="splide__slide">
+            <img
+              class="testimony"
+              src="assets/img/work/Camille.jpg"
+              alt="photo profil"
+            />
+            <p class="testimony__description">
+              J'ai eu le plaisir de travailler avec Johary pendant 5 ans. C'est
+              avec plaisir que je le recommande pour ses compétences
+              exceptionnelles en matière de développement front-end. Au fil des
+              années, j'ai été témoin de la passion, de son engagement ainsi que
+              de son évolution au sein de notre équipe. Sa passion pour le
+              développement front-end et sa volonté de s'adapter aux nouvelles
+              tendances et technologies en font un atout pour toute
+              organisation.
+            </p>
+            <a
+              href="https://www.linkedin.com/in/camille-kanza-47871b98/"
+              class="team-name"
+              target="_blank"
+              ><h5>Camille KANZA</h5></a
+            >
           </li>
           <li class="splide__slide">
             <img
@@ -258,6 +259,12 @@
               adaptabilité en toutes circonstances ! Ca a été un immense plaisir
               de travailler ensemble
             </p>
+            <a
+              href="https://www.linkedin.com/in/virginie-ravier-cmo/"
+              class="team-name"
+              target="_blank"
+              ><h5>Virginie RAVIER</h5></a
+            >
           </li>
           <li class="splide__slide">
             <img
@@ -274,6 +281,12 @@
               recommande vivement Johary pour toute opportunité professionnelle
               future.
             </p>
+            <a
+              href="https://www.linkedin.com/in/elmchaimae/"
+              target="_blank"
+              class="team-name"
+              ><h5>Chaimae EL MESSOUSSI</h5></a
+            >
           </li>
           <li class="splide__slide">
             <img
@@ -291,13 +304,43 @@
               heureux d'avoir pu évoluer à tes côtés Mister, ton prochain
               employeur aura beaucoup de chance de t'avoir!
             </p>
+            <a
+              href="https://www.linkedin.com/in/emmanuel-prou-614b3431/"
+              target="_blank"
+              class="team-name"
+              ><h5>Emmanuel PROU</h5></a
+            >
           </li>
+          <!--li class="splide__slide">
+            <img
+              class="testimony"
+              src="assets/img/work/Piedad.jpg"
+              alt="photo profil"
+            />
+            <p class="testimony__description">
+              J’ai travaillé pendant 5 ans en étroite collaboration avec Johary.
+              J’ai été impressionné par son évolution, sa responsabilité et sa
+              réactivité. Il allie le développement back et front end ainsi
+              qu’une vision UX ce qui a permis d’avancer efficacement sur de
+              nombreux projets que nous avons élaboré ensemble dont la refonte
+              du site web incluant un forum très riche en termes de
+              fonctionnalités, le plan de taggage pour améliorer la connaissance
+              des utilisateurs ainsi que des parcours de génération de leads
+              qualifiés.
+            </p>
+            <a
+              href="https://www.linkedin.com/in/piedadolivares/"
+              target="_blank"
+              class="team-name"
+              ><h5>Piedad POLIVARES</h5></a
+            >
+          </li-->
         </ul>
       </div>
     </section>
     <section id="contact">
       <div class="contact-wrap">
-        <h2 class="contact-title">Envie d'échanger ?</h2>
+        <h2 class="contact-title">Contact</h2>
         <div class="contact-block">
           <div class="email-icon">
             <i class="fa-solid fa-envelope-open fa-rotate-90"></i>
