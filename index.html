@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="assets/img/favicon.png" type="image/png" />
+    <title>Johary-Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide-extension-auto-scroll@0.5.3/dist/js/splide-extension-auto-scroll.min.js"></script>
+
+    <script
+      src="https://kit.fontawesome.com/fd61535574.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo"><img class="pic" src="assets/img/me.png" /></div>
+      <nav class="menu">
+        <ul>
+          <li><a href="#accueil">Accueil</a></li>
+          <li><a href="#about">À propos</a></li>
+          <li><a href="#work">Mes travaux</a></li>
+          <li><a href="#skills">Compétences</a></li>
+          <li><a href="#reference">Réferences</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="hero-image" id="accueil">
+      <div class="main-header">
+        <h1 class="title-header">
+          <span id="title-animation">
+            Bienvenue à toi sur ma page personnelle et bonne visite!</span
+          >
+        </h1>
+      </div>
+    </section>
+
+    <section class="about-section" id="about">
+      <h2 class="about-title">Qui je suis ?</h2>
+      <p class="about-description">
+        <i class="fa fa-quote-left"></i>
+        Je suis un Développeur Web / Front-end avec 5 ans d'expériences et je
+        suis actuellement à la recherche de nouveau défi stimulant.<i
+          class="fa fa-quote-right"
+        ></i>
+      </p>
+    </section>
+    <section class="skills-section">
+      <h2 class="skills-title" id="skills">Compétences</h2>
+      <div class="skills-container">
+        <div class="skills-item">
+          <i class="fa-solid fa-file-code" id="code"></i>
+          <h4 class="skills-item__title">Compétences spécialisées</h4>
+          <div class="skills-item__list">
+            <ul class="item-list">
+              <li>HTML, CSS, SASS, BOOTSTRAP</li>
+              <li>JAVASCRIPT, JQUERY, API REST</li>
+              <li>WORDPRESS , Vue JS, REACT(en cours)</li>
+              <!--li>SQL, PHP, METHODOLOGIE AGILE SCRUM</li-->
+            </ul>
+          </div>
+        </div>
+        <div class="skills-item">
+          <i class="fa-solid fa-award" id="award"></i>
+          <h4 class="skills-item__title">Mes certifications en ligne</h4>
+          <div class="skills-item__list">
+            <ul class="item-list">
+              <li>HTML, CSS, JavaScript (COURSERA)</li>
+              <li>Front-End Web UI Frameworks and Tools (COURSERA)</li>
+              <li>Méthodologie Agile (OCTO ACADEMY)</li>
+              <!--li>Le CSS avec Sass (OPENCLASSROOMS)</li>
+              <li>Développeur WEB (UDEMY)</li-->
+            </ul>
+          </div>
+        </div>
+        <div class="skills-item">
+          <i class="fa-solid fa-brain" id="general"></i>
+          <h4 class="skills-item__title">Compétences générales</h4>
+          <div class="skills-item__list">
+            <ul class="item-list">
+              <li>Intélligence émotionnelle</li>
+              <li>Esprit d'équipe</li>
+              <li>Sens de l'analyse</li>
+            </ul>
+          </div>
+        </div>
+        <div class="skills-item">
+          <i class="fa-solid fa-laptop" id="os"></i>
+          <h4 class="skills-item__title">Système d'exploitations et outils</h4>
+          <div class="skills-item__list">
+            <ul class="item-list">
+              <li>Windows, Linux</li>
+              <li>Vscode Github Mysql Workbench</li>
+              <li>Trello Postman Figma</li>
+              <!--li>Figma Extensions Chrome ...</li-->
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="work-section" id="work">
+      <h2 class="work-title">Quelques réalisations</h2>
+      <div class="work-gallery">
+        <!-- Contenu de la galerie d'images ici -->
+        <div class="work-item">
+          <img src="assets/img/work/fluksaqua.png" />
+          <div class="overlay">
+            <p>
+              Forum FluksAqua<br /><a
+                href="https://www.facebook.com/profile.php?id=100070390117350&sk=photos"
+                target="_blank"
+                ><i class="fa-solid fa-eye fa-beat-fade"></i
+              ></a>
+            </p>
+          </div>
+        </div>
+        <div class="work-item">
+          <img src="assets/img/work/dish.jpg" />
+          <div class="overlay">
+            <p>
+              Formation OPC OHMYFOOD<br /><a
+                href="https://johary1.github.io/ohmyfood.github.io/ohmyfood/index.html"
+                target="_blank"
+                ><i class="fa-solid fa-eye fa-beat-fade"></i
+              ></a>
+            </p>
+          </div>
+        </div>
+        <div class="work-item">
+          <img src="assets/img/work/les-petits-plats.png" />
+          <div class="overlay">
+            <p>
+              Formation OPC LES Petits Plats<br /><a
+                href="https://johary1.github.io/les-petits-plats.io/index.html"
+                target="_blank"
+                ><i class="fa-solid fa-eye fa-beat-fade"></i
+              ></a>
+            </p>
+          </div>
+        </div>
+        <div class="work-item">
+          <img src="assets/img/work/Booki.png" />
+          <div class="overlay">
+            <p>
+              Formation OPC BOOKI<br /><a
+                href="https://johary1.github.io/#"
+                target="_blank"
+                ><i class="fa-solid fa-eye fa-beat-fade"></i
+              ></a>
+            </p>
+          </div>
+        </div>
+        <div class="work-item">
+          <img src="assets/img/work/Fisheye.png" />
+          <div class="overlay">
+            <p>
+              Formation OPC API et Accessibilité<br /><a
+                href="https://johary1.github.io/accessibility/"
+                target="_blank"
+                ><i class="fa-solid fa-eye fa-beat-fade"></i
+              ></a>
+            </p>
+          </div>
+        </div>
+        <div class="work-item">
+          <img src="assets/img/work/bg.jpg" />
+          <div class="overlay">
+            <p>
+              Nom du projet<br /><a href="#"
+                ><i class="fa-solid fa-eye fa-beat-fade"></i
+              ></a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="reference" class="splide" aria-label="Beautiful Images">
+      <div class="splide__track">
+        <h2 class="reference-title">Mes références</h2>
+        <ul class="splide__list">
+          <li class="splide__slide">
+            <img class="testimony" src="assets/img/me.png" alt="photo profil" />
+            <p class="testimony__description">
+              6J'ai travaillé plus de trois ans avec Johary lorsqu'il était
+              développeur chez FluksAqua, pour développer un forum d'entraide
+              technique à forte audience dont j'assurais la partie marketing.
+              Ses compétences techniques, sa compréhension du produit, du marché
+              et des besoins utilisateurs ont été des atouts formidables dans ce
+              projet. Sans mentionner son esprit d'équipe, sa gentillesse et son
+              adaptabilité en toutes circonstances ! Ca a été un immense plaisir
+              de travailler ensemble
+            </p>
+          </li>
+          <li class="splide__slide">
+            <img
+              class="testimony"
+              src="assets/img/work/Camille.jpg"
+              alt="photo profil"
+            />
+            <p class="testimony__description">
+              J'ai eu le plaisir de travailler avec Johary pendant 5 ans. C'est
+              avec plaisir que je le recommande pour ses compétences
+              exceptionnelles en matière de développement front-end. Au fil des
+              années, j'ai été témoin de la passion, de son engagement ainsi que
+              de son évolution au sein de notre équipe. Sa passion pour le
+              développement front-end et sa volonté de s'adapter aux nouvelles
+              tendances et technologies en font un atout pour toute
+              organisation.
+            </p>
+          </li>
+
+          <li class="splide__slide">
+            <img
+              class="testimony"
+              src="assets/img/work/Piedad.jpg"
+              alt="photo profil"
+            />
+            <p class="testimony__description">
+              J’ai travaillé pendant 5 ans en étroite collaboration avec Johary.
+              J’ai été impressionné par son évolution, sa responsabilité et sa
+              réactivité. Il allie le développement back et front end ainsi
+              qu’une vision UX ce qui a permis d’avancer efficacement sur de
+              nombreux projets que nous avons élaboré ensemble dont la refonte
+              du site web incluant un forum très riche en termes de
+              fonctionnalités, le plan de taggage pour améliorer la connaissance
+              des utilisateurs ainsi que des parcours de génération de leads
+              qualifiés.
+            </p>
+          </li>
+          <li class="splide__slide">
+            <img
+              class="testimony"
+              src="assets/img/work/Virginie.jpg"
+              alt="photo profil"
+            />
+            <p class="testimony__description">
+              J'ai travaillé plus de trois ans avec Johary lorsqu'il était
+              développeur chez FluksAqua, pour développer un forum d'entraide
+              technique à forte audience dont j'assurais la partie marketing.
+              Ses compétences techniques, sa compréhension du produit, du marché
+              et des besoins utilisateurs ont été des atouts formidables dans ce
+              projet. Sans mentionner son esprit d'équipe, sa gentillesse et son
+              adaptabilité en toutes circonstances ! Ca a été un immense plaisir
+              de travailler ensemble
+            </p>
+          </li>
+          <li class="splide__slide">
+            <img
+              class="testimony"
+              src="assets/img/work/Chaimae.jpg"
+              alt="photo profil"
+            />
+            <p class="testimony__description">
+              J'ai eu le plaisir de travailler avec Johary chez FluksAqua, où il
+              a démontré une excellente compréhension des technologies front-end
+              et une capacité à livrer des projets de haute qualité dans les
+              délais impartis. Il est également un collègue très sympathique
+              avec lequel il est facile et agréable de communiquer. Je
+              recommande vivement Johary pour toute opportunité professionnelle
+              future.
+            </p>
+          </li>
+          <li class="splide__slide">
+            <img
+              class="testimony"
+              src="assets/img/work/Emmanuel.jpg"
+              alt="photo profil"
+            />
+            <p class="testimony__description">
+              J'ai eu la chance de travailler avec Johary pendant 1an chez
+              Fluksaqua au sein de l'équipe communautaire.Il fut l'un des
+              premiers à m'accueillir et a me souhaiter la bienvenue, sa
+              bienveillance et son humour font de lui un collègue idéal.Au delà
+              de ses qualités humaines ce sont ses compétences techniques, sa
+              qualité d'adaptation et sa polyvalence qui m'ont marqué.Très
+              heureux d'avoir pu évoluer à tes côtés Mister, ton prochain
+              employeur aura beaucoup de chance de t'avoir!
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="contact-wrap">
+        <h2 class="contact-title">Envie d'échanger ?</h2>
+        <div class="contact-block">
+          <div class="email-icon">
+            <i class="fa-solid fa-envelope-open fa-rotate-90"></i>
+          </div>
+          <div class="email-address">
+            <p>joharisoa<i class="fa-solid fa-at" id="arobase"></i>gmail.com</p>
+          </div>
+        </div>
+
+        <!--h3>joharisoa<i class="fa-solid fa-at" id="arobase"></i>gmail.com</h3-->
+        <div class="contact-items">
+          <a
+            href="https://www.linkedin.com/in/joharisoa-ramananjanahary-front-end-dev/"
+            target="_blank"
+            ><i class="fa-brands fa-linkedin linkedin"></i
+          ></a>
+        </div>
+
+        <div class="download-btn">
+          <a
+            href="/assets/doc/CV_JOHARISOA.pdf"
+            target="_blank"
+            class="custom-btn"
+            ><i class="fa-solid fa-download download-icon"></i> Voir mon CV</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <a href="#accueil"
+        ><span><i class="fa-solid fa-chevron-up"></i></span
+      ></a>
+      <h5>© Johary 2023</h5>
+    </footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>
