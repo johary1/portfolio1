@@ -439,7 +439,6 @@ a.team-name {
   /*border: 1px solid #fff;*/
   padding: 10px;
   display: inline-block;
-  animation: rotate 1.5s ease-in-out 0.5s forwards;
 }
 
 .email-address {
@@ -448,7 +447,7 @@ a.team-name {
   padding: 5px 10px 5px 10px;
   margin-left: -11px;
   display: inline-block;
-  animation: slideIn 1.5s ease-in-out 1.5s forwards;
+  animation: slideIn 3s ease-in-out 3s forwards infinite;
 }
 
 .email-icon i {
@@ -459,15 +458,6 @@ a.team-name {
 .email-address p {
   color: white;
   margin: 0;
-}
-
-@keyframes rotate {
-  from {
-    transform: rotateY(0);
-  }
-  to {
-    transform: rotateY(360deg);
-  }
 }
 
 @keyframes slideIn {
