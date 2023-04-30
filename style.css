@@ -196,8 +196,9 @@ a {
 }
 
 .testimony__description {
-  text-align: center;
-  margin: 30px;
+  text-align: justify;
+  width: 450px;
+  margin: 30px auto;
 }
 
 .team-name {
@@ -334,6 +335,14 @@ a.team-name {
   }
 }
 
+@media (max-width: 991px) {
+  .testimony__description {
+    text-align: justify;
+    width: 300px;
+    margin: 30px auto;
+  }
+}
+
 @media (min-width: 769px) and (max-width: 991px) {
   .menu li {
     text-transform: uppercase;
@@ -414,7 +423,9 @@ a.team-name {
 
 .email-address {
   border: 1px solid #fff;
-  padding: 5px;
+  background-color: #435c92;
+  padding: 5px 10px 5px 10px;
+  margin-left: -11px;
   display: inline-block;
   animation: slideIn 1.5s ease-in-out 1.5s forwards;
 }
