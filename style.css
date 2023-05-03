@@ -122,6 +122,7 @@ a {
 
 .work-title {
   text-align: center;
+  font-size: 36px;
   padding: 50px;
 }
 
@@ -180,6 +181,7 @@ a {
 }
 .reference-title {
   text-align: center;
+  font-size: 36px;
   padding: 50px;
 }
 .splide {
@@ -359,7 +361,7 @@ a.team-name {
     scrollbar-color: #333 #f2f2f2;
     width: 300px;
     height: auto;
-    max-height: 275px;
+    max-height: 300px;
     margin: 30px auto;
   }
 }
@@ -435,6 +437,9 @@ a.team-name {
   align-items: center;
 }
 
+.contact-title {
+  font-size: 36px;
+}
 .email-icon {
   /*border: 1px solid #fff;*/
   padding: 10px;
@@ -443,7 +448,7 @@ a.team-name {
 
 .email-address {
   border: 1px solid #fff;
-  background-color: #435c92;
+  background-color: #2f72e4;
   padding: 5px 10px 5px 10px;
   margin-left: -11px;
   display: inline-block;
