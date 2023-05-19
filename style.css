@@ -288,7 +288,7 @@ a.team-name {
 }
 
 .skills-item__list {
-  margin-top: 30px;
+  margin: 30px;
   font-size: 0.8rem;
   text-align: justify;
 }
