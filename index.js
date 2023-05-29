@@ -74,7 +74,7 @@ document.addEventListener("DOMContentLoaded", function () {
     type: "loop",
     perPage: 2,
     autoplay: true,
-    interval: 9000,
+    interval: 3000,
     breakpoints: {
       768: {
         perPage: 1,

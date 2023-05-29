@@ -98,7 +98,7 @@ a {
   animation-fill-mode: forwards;
 }
 #about {
-  background-color: #03045e;
+  background-color: #404e7c;
   color: #fff;
   padding: 30px;
 }
@@ -115,7 +115,7 @@ a {
 
 /* work*/
 .work-section {
-  background: #03045e;
+  background: #404e7c;
   color: white;
   padding-bottom: 120px;
 }
@@ -198,6 +198,7 @@ a {
 }
 
 .testimony__description {
+  color: lightgray;
   text-align: justify;
   width: 450px;
   margin: 30px auto;
@@ -227,11 +228,11 @@ a.team-name {
 #os,
 #general,
 #code {
+  color: white;
   font-size: 75px;
   position: absolute;
   top: 20%;
   left: 50%;
-  /* centrer parfaitement l'élément */
   transform: translate(-50%, -50%);
 }
 #os {
@@ -247,12 +248,10 @@ a.team-name {
   animation: fade-in 1.5s ease-in-out forwards;
 }
 
-/* Add the "hidden" class to elements that should initially be hidden */
 .hidden {
   opacity: 0;
 }
 
-/* Update the animation classes */
 @keyframes fade-in {
   from {
     opacity: 0;
@@ -288,6 +287,7 @@ a.team-name {
 }
 
 .skills-item__list {
+  color: lightgray;
   margin: 30px;
   font-size: 0.8rem;
   text-align: justify;
@@ -421,7 +421,7 @@ a.team-name {
 
 /*contact*/
 #contact {
-  background-color: #03045e;
+  background-color: #404e7c;
   color: #fff;
   text-align: center;
 }
