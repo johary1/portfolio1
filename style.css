@@ -198,7 +198,7 @@ a {
 }
 
 .testimony__description {
-  color: lightgray;
+  color: gray;
   text-align: justify;
   width: 450px;
   margin: 30px auto;
@@ -228,7 +228,7 @@ a.team-name {
 #os,
 #general,
 #code {
-  color: white;
+  color: #404e7c;
   font-size: 75px;
   position: absolute;
   top: 20%;
