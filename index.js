@@ -7,7 +7,7 @@ for (let i = 0; i < letters.length; i++) {
   const span = document.createElement("span");
   span.textContent = letters[i] === " " ? "\u00A0" : letters[i];
   span.className = "letter-animation hidden";
-  span.style.animationDelay = `${i * 100}ms`;
+  span.style.animationDelay = `${i * 45}ms`;
   title.appendChild(span);
 }
 

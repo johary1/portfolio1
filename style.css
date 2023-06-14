@@ -275,9 +275,9 @@ a.team-name {
 }
 
 /* Update the animation selectors */
-.about-description,
+
 .skills-item {
-  animation-duration: 1.5s;
+  animation-duration: 3s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards;
 }
