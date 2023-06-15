@@ -98,7 +98,7 @@ a {
   animation-fill-mode: forwards;
 }
 #about {
-  background-color: #404e7c;
+  background-color: #202c39;
   color: #fff;
   padding: 30px;
 }
@@ -115,7 +115,7 @@ a {
 
 /* work*/
 .work-section {
-  background: #404e7c;
+  background: #202c39;
   color: white;
   padding-bottom: 120px;
 }
@@ -177,7 +177,7 @@ a {
 
 /*carousel*/
 #reference {
-  background-color: #e2fdff;
+  background-color: #ffffff;
 }
 .reference-title {
   text-align: center;
@@ -185,7 +185,7 @@ a {
   padding: 50px;
 }
 .splide {
-  background: #e2fdff;
+  background: #ffffff;
   margin-top: -50px;
 }
 .testimony {
@@ -215,7 +215,7 @@ a.team-name {
 
 /*skills*/
 .skills-section {
-  background: #e2fdff;
+  background: #ffffff;
 }
 .skills-title {
   color: black;
@@ -421,7 +421,7 @@ a.team-name {
 
 /*contact*/
 #contact {
-  background-color: #404e7c;
+  background-color: #202c39;
   color: #fff;
   text-align: center;
 }
@@ -537,19 +537,18 @@ a.team-name {
 }
 /*Footer*/
 footer {
-  background-color: #435c92;
-  opacity: 0.2;
+  background-color: #ffffff;
   padding: 20px 0 40px;
   text-align: center;
 }
 
 footer h5 {
-  color: white;
+  color: #202c39;
   font-weight: normal;
 }
 
 footer span {
-  color: white;
+  color: #202c39;
   font-size: 25px;
   line-height: 35px;
 }
