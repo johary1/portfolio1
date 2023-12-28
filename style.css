@@ -80,7 +80,7 @@ a {
   text-align: center;
 }
 
-@keyframes letterFade {
+/* @keyframes letterFade {
   from {
     opacity: 0;
   }
@@ -96,7 +96,7 @@ a {
   animation-duration: 1s;
   animation-timing-function: linear;
   animation-fill-mode: forwards;
-}
+} */
 #about {
   background-color: #202c39;
   color: #fff;
@@ -107,10 +107,14 @@ a {
   font-size: 24px;
 }
 
+.about-title {
+  margin-bottom: 30px;
+}
+
 .about-description {
   font-size: 18px;
-  animation: itemDisplay 5s;
-  animation-timing-function: cubic-bezier(0.26, 0.53, 0.74, 1.48);
+  /* animation: itemDisplay 5s;
+  animation-timing-function: cubic-bezier(0.26, 0.53, 0.74, 1.48); */
 }
 
 /* work*/
@@ -263,7 +267,7 @@ a.team-name {
   }
 }
 
-@keyframes itemDisplay {
+/* @keyframes itemDisplay {
   from {
     opacity: 0;
     transform: scale(0.3, 0.3);
@@ -272,7 +276,7 @@ a.team-name {
     opacity: 1;
     transform: scale(1, 1);
   }
-}
+} */
 
 /* Update the animation selectors */
 

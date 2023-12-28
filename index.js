@@ -1,15 +1,15 @@
 // Title Animation
-const title = document.getElementById("title-animation");
-const letters = title.textContent.split("");
-title.textContent = "";
+// const title = document.getElementById("title-animation");
+// const letters = title.textContent.split("");
+// title.textContent = "";
 
-for (let i = 0; i < letters.length; i++) {
-  const span = document.createElement("span");
-  span.textContent = letters[i] === " " ? "\u00A0" : letters[i];
-  span.className = "letter-animation hidden";
-  span.style.animationDelay = `${i * 45}ms`;
-  title.appendChild(span);
-}
+// for (let i = 0; i < letters.length; i++) {
+//   const span = document.createElement("span");
+//   span.textContent = letters[i] === " " ? "\u00A0" : letters[i];
+//   span.className = "letter-animation hidden";
+//   span.style.animationDelay = `${i * 45}ms`;
+//   title.appendChild(span);
+// }
 
 // Function to check if an element is in the viewport
 function isInViewport(element) {
