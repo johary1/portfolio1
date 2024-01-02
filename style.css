@@ -97,8 +97,9 @@ a {
   animation-timing-function: linear;
   animation-fill-mode: forwards;
 } */
+
 #about {
-  background-color: #202c39;
+  background: linear-gradient(to top right, #232f5e, #6497b1);
   color: #fff;
   padding: 30px;
 }
@@ -119,7 +120,7 @@ a {
 
 /* work*/
 .work-section {
-  background: #202c39;
+  background: #232f5e;
   color: white;
   padding-bottom: 120px;
 }
@@ -425,7 +426,7 @@ a.team-name {
 
 /*contact*/
 #contact {
-  background-color: #202c39;
+  background-color: #232f5e;
   color: #fff;
   text-align: center;
 }
@@ -547,12 +548,12 @@ footer {
 }
 
 footer h5 {
-  color: #202c39;
+  color: #232f5e;
   font-weight: normal;
 }
 
 footer span {
-  color: #202c39;
+  color: #232f5e;
   font-size: 25px;
   line-height: 35px;
 }
