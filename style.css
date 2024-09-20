@@ -80,24 +80,6 @@ a {
   text-align: center;
 }
 
-/* @keyframes letterFade {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-.letter-animation {
-  display: inline-block;
-  opacity: 0;
-  animation-name: letterFade;
-  animation-duration: 1s;
-  animation-timing-function: linear;
-  animation-fill-mode: forwards;
-} */
-
 #about {
   background: linear-gradient(to top right, #232f5e, #6497b1);
   color: #fff;
@@ -112,10 +94,44 @@ a {
   margin-bottom: 30px;
 }
 
+svg {
+  width: 100%;
+  height: 100%;
+}
+svg text {
+  animation: strokeLetter 5s infinite alternate;
+  stroke-width: 2;
+  stroke: whitesmoke;
+}
+
+@keyframes strokeLetter {
+  0% {
+    fill: rgba(72, 138, 204, 0);
+    stroke: whitesmoke;
+    stroke-dashoffset: 25%;
+    stroke-dasharray: 0 50%;
+    stroke-width: 2;
+  }
+  70% {
+    fill: rgba(72, 138, 204, 0);
+    stroke: whitesmoke;
+  }
+  80% {
+    fill: rgba(72, 138, 204, 0);
+    stroke: whitesmoke;
+    stroke-width: 3;
+  }
+  100% {
+    fill: rgba(72, 138, 204, 1);
+    stroke: whitesmoke;
+    stroke-dashoffset: -25%;
+    stroke-dasharray: 50% 0;
+    stroke-width: 0;
+  }
+}
+
 .about-description {
   font-size: 18px;
-  /* animation: itemDisplay 5s;
-  animation-timing-function: cubic-bezier(0.26, 0.53, 0.74, 1.48); */
 }
 
 /* work*/
